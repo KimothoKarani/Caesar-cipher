@@ -27,11 +27,11 @@ def caesar_cipher(s, shift)
   end
   
   
-  ciphered = caesar_cipher("Ruby is often used for web development, scripting, and creating command-line interfaces", 3)
+  ciphered = caesar_cipher("They rushed out the door, grabbing anything and everything they could think of they might need. There was no time to double-check to make sure they weren't leaving something important behind. Everything was thrown into the car and they sped off. Thirty minutes later they were safe and that was when it dawned on them that they had forgotten the most important thing of all.", 3)
 
   puts ciphered
 
-  deciphered = caesar_cipher("Ruby is often used for web development, scripting, and creating command-line interfaces", -3)
+  deciphered = caesar_cipher("They rushed out the door, grabbing anything and everything they could think of they might need. There was no time to double-check to make sure they weren't leaving something important behind. Everything was thrown into the car and they sped off. Thirty minutes later they were safe and that was when it dawned on them that they had forgotten the most important thing of all.", -3)
 
 
   puts deciphered
